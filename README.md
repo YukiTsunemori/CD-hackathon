@@ -34,10 +34,17 @@ git add . (or git add -A)
 git commit -m "Implement login-page(ログイン機能の実装)"
 ```
 ## Push
-いよいよ、ローカル(手元のPC)からリモート(Github)のリポジトリへ変更をアップロードします。　　
+いよいよ、ローカル(手元のPC)からリモート(Github)のリポジトリへ変更をアップロードします。  
 チェックアウト後の初回のpushの際は、-u origin ブランチ名をつける必要があります。
 ```
-git push -u origin ブランチ名
+git push -u origin develop
 ```
-以後、git pushコマンドのみでOK👍
+今回、各自が実装する機能またはhtmlなどのファイルをpushする際は、developブランチへpushするようにします。  
+実際の現場では、mainではなくdevelopブランチに集約するみたいなので、特にこだわりがなければせっかくなので実践に近い形を採用しようと思います💻  
 
+以後のコマンドはgit pushのみでOK👍
+
+# Pull request
+各チームの誰か一人がdevelopブランチへのmergeをするか、順番に回すかはチームの判断とします。  
+pull requestの教材を松田さんが過去に作成していたものを他の卒業生の方からいただいたので、リンク載せておきます。  
+https://docs.google.com/presentation/d/1Lf2MF9g0i9Zxs5H0BOwwrGdWIqBc0qvWE9Yvzf2w_pc/edit?slide=id.ge2fb718087_0_5#slide=id.ge2fb718087_0_5
