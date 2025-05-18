@@ -4,14 +4,14 @@ Codebase卒業生によるHackathon開催用のリポジトリです。
 ネットや講師による教材を見ていると、pushするのはmainではなくDevelopブランチのようなので、少しでも実践に近い形で運用していこうと思います。
 まずは、ローカル（手元PC）へリポジトリをクローンしましょう。
 
-## Git clone
+## git clone
 ```
 https://github.com/YukiTsunemori/CD-hackathon.git
 ```
 
 ※すでに初期化(git init)済みなのでローカルでこちらの操作は不要です。
 
-## Git checkout
+## git checkout
 各自実装する機能をfeature/ブランチ名でチェックアウトしましょう。  
 命名については誰しもが見て何の作業をしているか、がわかるようにしましょう。  
 
@@ -31,7 +31,7 @@ https://github.com/YukiTsunemori/CD-hackathon.git
 ```
 git commit -m "Implement login-page(ログイン機能の実装)"
 ```
-## Push
+## git push
 いよいよ、ローカル(手元のPC)からリモート(Github)のリポジトリへ変更をアップロードします。  
 チェックアウト後の初回のpushの際は、-u origin ブランチ名をつける必要があります。
 ```
