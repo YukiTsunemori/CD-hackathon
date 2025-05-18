@@ -44,6 +44,9 @@ git push -u origin develop
 
 以後のコマンドはgit pushのみでOK👍
 
+## git pull
+今回は、developブランチ 
+
 # Pull request
 各チームの誰か一人がdevelopブランチへのmergeをするか、順番に回すかはチームの判断とします。  
 pull requestの教材を松田さんが過去に作成していたものを他の卒業生の方からいただいたので、リンク載せておきます。  
