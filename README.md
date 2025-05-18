@@ -41,7 +41,7 @@ git push -u origin ブランチ名
 実際の現場では、mainではなくdevelopブランチに集約するみたいなので、特にこだわりがなければせっかくなので実践に近い形を採用しようと思います💻  
 developにmergeするのは各自ブランチをpushしてからとしますので、上の例で言うと、  
 ```
-git push origin feature/login_page
+git push origin -u feature/login_page
 ```
 
 以後のコマンドはgit pushのみでOK👍
