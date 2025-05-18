@@ -2,3 +2,10 @@
 Codebase卒業生によるHackathon開催用のリポジトリです。  
 ネットや講師による教材を見ていると、pushするのはmainではなくDevelopブランチのようなので、少しでも実践に近い形で運用していこうと思います。  
 まずは、ローカル（手元PC）へリポジトリをクローンしましょう。
+
+## Git clone
+```
+git clone https://github.com/YukiTsunemori/CD-hackathon.git
+```
+
+## 
