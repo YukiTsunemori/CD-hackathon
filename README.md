@@ -47,7 +47,8 @@ git push origin feature/login_page
 以後のコマンドはgit pushのみでOK👍
 
 ## git pull　(特に注意)
-今回は、developブランチ
+git pullでリモートリポジトリの最新情報をローカルリポジトリへ更新します。  
+タイミングなんですが、
 
 # Pull request
 各チームの誰か一人がdevelopブランチへのmergeをするか、順番に回すかはチームの判断とします。  
