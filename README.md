@@ -1,3 +1,56 @@
+
 # CD-hackathon
-これはmainブランチです。Developブランチにpushしていきましょう。  
-push先ブランチ=>https://github.com/YukiTsunemori/CD-hackathon/blob/develop/README.md
+Codebase卒業生によるHackathon開催用のリポジトリです。
+ネットや講師による教材を見ていると、pushするのはmainではなくDevelopブランチのようなので、少しでも実践に近い形で運用していこうと思います。
+まずは、ローカル（手元PC）へリポジトリをクローンしましょう。
+
+## git clone
+```
+https://github.com/YukiTsunemori/CD-hackathon.git
+```
+
+※すでに初期化(git init)済みなのでローカルでこちらの操作は不要です。
+
+## git checkout
+各自実装する機能をfeature/ブランチ名でチェックアウトしましょう。  
+命名については誰しもが見て何の作業をしているか、がわかるようにしましょう。  
+
+例：feature/login_page(or login-page)  
+
+ブランチ名の書き方はスネークケースやハイフンを使うなど、様々ですがチーム内で統一した方が見た目もいいかもしれません👀
+
+## git add
+ 編集したファイルを履歴に残す準備をします。  
+ ```git add .``` or ```git add -A```  
+ このコマンドで編集履歴に残す準備をします。  
+ 上二つのコマンドはよく教材に出てきますが、厳密には全てのファイルの最新情報がアップされるため、事前にpullしておらず白紙(ファイルだけが存在し中身がない)のものまでアップされます。その間、別のメンバーが編集したファイルまでも白紙になるため、addするのは編集したファイルだけを指定する方が確実かもしれません。👀
+
+## git commit 
+編集したファイルを後々追跡できるよう記録を残すコマンドです。  
+その際、-mオプションをつけることで、"どのファイルに何の機能また描画をつけたか"をメッセージとして残すことができます。ネットや参考書を見ると英語で書いている方や日本語で書いている方もいますが、チーム内で統一できばいいと思います。  
+```
+git commit -m "Implement login-page(ログイン機能の実装)"
+```
+## git push
+いよいよ、ローカル(手元のPC)からリモート(Github)のリポジトリへ変更をアップロードします。  
+チェックアウト後の初回のpushの際は、-u origin ブランチ名をつける必要があります。
+```
+git push -u origin ブランチ名
+```
+~~今回、各自が実装する機能またはhtmlなどのファイルをpushする際は、developブランチへpushするようにします。~~  
+実際の現場では、mainではなくdevelopブランチに集約するみたいなので、特にこだわりがなければせっかくなので実践に近い形を採用しようと思います💻  
+developにmergeするのは各自ブランチをpushしてからとしますので、上の例で言うと、  
+```
+git push origin -u feature/login_page
+```
+
+以後のコマンドはgit pushのみでOK👍
+
+## git pull　(特に注意)
+git pullでリモートリポジトリの最新情報をローカルリポジトリへ更新します。  
+タイミングなんですが、
+
+# Pull request
+各チームの誰か一人がdevelopブランチへのmergeをするか、順番に回すかはチームの判断とします。  
+pull requestの教材を松田さんが過去に作成していたものを他の卒業生の方からいただいたので、リンク載せておきます。  
+https://docs.google.com/presentation/d/1Lf2MF9g0i9Zxs5H0BOwwrGdWIqBc0qvWE9Yvzf2w_pc/edit?slide=id.ge2fb718087_0_5#slide=id.ge2fb718087_0_5
