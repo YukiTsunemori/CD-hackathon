@@ -7,6 +7,7 @@ Codebase卒業生によるHackathon開催用のリポジトリです。
 # RailsとDB　ver
 Railsのヴァージョンは特にこだわりがなければ最新のものを使おうと思います。  
 データーベースはCodebaseでも使用したPostgreSQLを使用しようと思います。  
+GemfileにあるRailsのヴァージョンとローカルのRailsヴァージョンは合わせるようにしてください。
 
 ## git clone
 ```
