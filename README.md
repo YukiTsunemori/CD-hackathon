@@ -4,6 +4,10 @@ Codebase卒業生によるHackathon開催用のリポジトリです。
 ネットや講師による教材を見ていると、pushするのはmainではなくDevelopブランチのようなので、少しでも実践に近い形で運用していこうと思います。
 まずは、ローカル（手元PC）へリポジトリをクローンしましょう。
 
+# RailsとDB　ver
+Railsのヴァージョンは特にこだわりがなければ最新のものを使おうと思います。  
+データーベースはCodebaseでも使用したPostgreSQLを使用しようと思います。  
+
 ## git clone
 ```
 https://github.com/YukiTsunemori/CD-hackathon.git
@@ -48,7 +52,8 @@ git push origin -u feature/login_page
 
 ## git pull　(特に注意)
 git pullでリモートリポジトリの最新情報をローカルリポジトリへ更新します。  
-タイミングなんですが、
+リポジトリの編集は複数人で行うため、誰かがmainへマージしたタイミングでpullするようにしましょう。
+pullをせず、自分のPCにある古いファイルを誤ってpush指定しまうと古いファイルが上書きされてしまうので、注意が必要です。📴
 
 # Pull request
 各チームの誰か一人がdevelopブランチへのmergeをするか、順番に回すかはチームの判断とします。  
