@@ -2,7 +2,8 @@
 # CodeBase-hackathon
 Codebase卒業生によるHackathon開催、READMEです。 
 今回はmainブランチへpushしていきます。  
-以下は、今回使用するRailsのバージョンと、よく使うgitコマンドについてまとめたので、わからなくなったら見返せるようにしました。
+以下は、今回使用するRailsのバージョンと、よく使うgitコマンドについてまとめたので、わからなくなったら見返せるようにしました。  
+作成物についてはこちら => https://github.com/YukiTsunemori/CD-hackathon/tree/main/Web_App
 
 # Rails verとデータベース
 Railsのヴァージョンは特にこだわりがなければ最新のものを使おうと思います。(今回は、Rails 8.0.2)  GemfileにあるRailsのヴァージョンとローカルのRailsヴァージョンは合わせるようにしてください。  
