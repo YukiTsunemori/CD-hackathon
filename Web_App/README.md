@@ -37,4 +37,4 @@ CRUD機能に加え、ログイン/ログアウト機構も持たせればCodeba
    もしそれでもうまくいかない場合は、`gem install rails -v 8.0.2`を試してみてください。
 2. PostgreSQL  
     postgresql@14を使用します。手元PCに無い方は、`brew install postgres`で実行できます。  
-    SinatraではターミナルでSQL分を触っていましたが、Railsではおそらく使わないでしょう..https://qiita.com/H-A-L/items/fe8cb0e0ee0041ff3ceb
+    Sinatraではターミナルで生のSQL構文を実行していましたが、Railsではおそらく使わないでしょう..https://qiita.com/H-A-L/items/fe8cb0e0ee0041ff3ceb
