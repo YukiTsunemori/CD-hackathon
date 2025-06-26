@@ -1,4 +1,4 @@
-.
+```markdown
 ├── app
 │   ├── assets
 │   │   ├── images
@@ -113,6 +113,5 @@
     │   └── user_test.rb
     ├── system
     └── test_helper.rb
-
-38 directories, 77 files
+```
 
